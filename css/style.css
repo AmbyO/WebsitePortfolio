@@ -1,0 +1,292 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif; }
+
+#landingPage {
+  height: auto;
+  color: #ffffff;
+  animation: color 10s ease-in infinite alternate;
+  /*about me*/
+  /*creating and animating the skill bars*/ }
+  #landingPage #header {
+    font-size: 20px;
+    position: relative;
+    margin-top: 3%; }
+    #landingPage #header #menu {
+      float: left;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 3px 3px 5px 0px #4D4D4D;
+      padding: 20px;
+      z-index: 1000000;
+      background-color: #ffffff;
+      color: #000000;
+      -webkit-box-shadow: 3px 3px 5px 0px #4D4D4D; }
+  #landingPage .logo {
+    float: left;
+    position: absolute;
+    left: 44.5%;
+    font-size: 30px;
+    font-weight: 700; }
+  #landingPage .logo:hover {
+    cursor: pointer;
+    animation: logo 2s ease-in-out alternate infinite; }
+@-webkit-keyframes logo {
+  0% {
+    -webkit-transform: scale(1.5); }
+  50% {
+    -webkit-transform: rotate(20deg); }
+  100% {
+    -webkit-transform: rotate(-20deg); } }
+  #landingPage .social div {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    float: left;
+    color: #000000 !important;
+    margin-right: 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px #4D4D4D;
+    box-shadow: 3px 3px 5px 0px #4D4D4D; }
+  #landingPage .social a:hover {
+    color: #7F7F7F !important; }
+  #landingPage .social {
+    position: absolute;
+    right: 0px; }
+  #landingPage .items {
+    margin: 20px 0px; }
+  #landingPage a, #landingPage a:visited, #landingPage a:focus, #landingPage a:active {
+    color: #000000 !important;
+    text-decoration: none !important; }
+  #landingPage .jumbotron {
+    background: none !important;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif !important;
+    margin: 100px 20% 20% 20%;
+    padding: 50px; }
+  #landingPage #reach-me {
+    border: 2px solid;
+    padding: 5px;
+    font-size: 20px;
+    position: relative;
+    width: 200px;
+    font-weight: bold;
+    margin: 0px auto; }
+  #landingPage #reach-me:hover {
+    cursor: pointer; }
+  #landingPage #landingPageFooter {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    border: solid 2px;
+    border-radius: 100%;
+    width: 50px;
+    margin: 0px auto;
+    height: 50px;
+    animation: arrowDown 0.5s infinite alternate ease-in-out; }
+  #landingPage #navigation {
+    font-size: 20px;
+    position: fixed;
+    left: 0px;
+    z-index: 100000000 !important;
+    width: 100%;
+    padding-top: 100px;
+    height: 100%;
+    text-align: center;
+    background-color: #F17366;
+    display: none;
+    top: 0px; }
+  #landingPage #close-nav {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    display: none; }
+  #landingPage #close-nav:hover {
+    font-size: 30px !important; }
+  #landingPage #navigation .fa {
+    margin-right: 20px;
+    transition: font-size .5s ease-in-out; }
+  #landingPage #navigation .fa:hover, #landingPage #navigation ul li:hover {
+    font-size: 23px;
+    cursor: pointer; }
+  #landingPage #navigation ul li {
+    list-style: none;
+    position: relative;
+    margin: 30px 0px;
+    transition: font-size .5s ease-in-out; }
+  #landingPage #swap {
+    position: relative;
+    margin: 0px auto;
+    height: 40px;
+    margin: 30px;
+    width: 100%; }
+  #landingPage .swap:nth-child(1) {
+    opacity: 1;
+    animation: display4 7s ease-in forwards;
+    left: 100px; }
+  #landingPage .swap:nth-child(2) {
+    opacity: 1;
+    animation: display1 7s infinite ease-in;
+    left: 150px; }
+  #landingPage .swap:nth-child(3) {
+    opacity: 0;
+    animation: display2 7s infinite ease-in 2s;
+    left: 140px; }
+  #landingPage .swap:nth-child(4) {
+    opacity: 0;
+    animation: display3 7s infinite ease-in 4s;
+    left: 120px; }
+  #landingPage .swap {
+    position: absolute; }
+  #landingPage #left {
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: #ffffff;
+    left: 0px;
+    overflow: hidden;
+    padding-top: 5px; }
+  #landingPage .leftanim {
+    animation: leftanim .7s ease-in-out forwards; }
+  #landingPage #aboutMe {
+    height: auto;
+    padding-bottom: 30px; }
+  #landingPage #header-aboutme {
+    text-align: center;
+    margin: 30px 0px; }
+  #landingPage #bio {
+    font-size: 20px; }
+  #landingPage .progress {
+    border: 1px solid;
+    height: 20px;
+    width: 100%;
+    text-align: right;
+    position: relative; }
+  #landingPage .percentage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 2px; }
+  #landingPage #html5 {
+    height: 100%;
+    background-color: #f1672c; }
+  #landingPage .html5anim {
+    animation: html5anim forwards 3s ease-in-out; }
+  #landingPage #css {
+    height: 100%;
+    background-color: #33a9dc; }
+  #landingPage .cssanim {
+    animation: cssanim forwards 3s ease-in-out 1s; }
+  #landingPage #j-s {
+    height: 100%;
+    background-color: #f1bf26; }
+  #landingPage .jsanim {
+    animation: jsanim forwards 3s ease-in-out 2s; }
+  #landingPage #b-strap {
+    height: 100%;
+    background-color: #4b376c; }
+  #landingPage .bsanim {
+    animation: bsanim forwards 3s ease-in-out 3s; }
+  #landingPage #jquery {
+    height: 100%;
+    background-color: #343434; }
+  #landingPage .jqanim {
+    animation: jqanim forwards 3s ease-in-out 4s; }
+  #landingPage #sass {
+    height: 100%;
+    background-color: #cc6699; }
+  #landingPage .sassanim {
+    animation: sassanim forwards 3s ease-in-out 4s; }
+  #landingPage #portfolio {
+    height: auto;
+    background-color: #616161;
+    color: #ffffff;
+    padding-bottom: 30px; }
+  #landingPage #header-portfolio {
+    text-align: center;
+    margin: 30px auto; }
+  #landingPage #portfolio-bio {
+    font-size: 20px; }
+  #landingPage #filters {
+    margin: 0px auto;
+    width: 500px; }
+  #landingPage .label {
+    float: left;
+    font-size: 20px !important;
+    margin: 10px 20px;
+    border: #ffffff solid 2px;
+    padding: 10px; }
+  #landingPage .label:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  #landingPage .items .col-sm-3 {
+    position: relative; }
+  #landingPage .overlay {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    background-color: #4D4D4D;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    transition: .5s opacity;
+    margin: 0px 15px; }
+  #landingPage .overlay:hover {
+    opacity: .5; }
+  #landingPage .portfolio-link {
+    font-size: 20px;
+    border: solid 1px #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: 100px; }
+  #landingPage .work-name {
+    text-align: center; }
+  #landingPage .exitwaypoint {
+    position: absolute;
+    bottom: 0px;
+    height: 1px;
+    width: 100px; }
+  #landingPage #contactme {
+    background-color: #ffffff;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center; }
+  #landingPage .input {
+    width: 500px;
+    height: 40px;
+    border: 2px solid #000000;
+    margin: 10px auto;
+    padding: 0px 10px; }
+  #landingPage .input-message {
+    width: 500px;
+    padding: 10px 10px;
+    height: 200px;
+    border: 2px solid #000000;
+    margin: 10px auto; }
+  #landingPage #submit_button {
+    height: auto;
+    padding: 10px;
+    background-color: #4B4B4B;
+    color: #ffffff;
+    font-size: 20px;
+    border: none; }
+  #landingPage #page-footer {
+    background-color: #000000;
+    width: 100%;
+    text-align: right;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 20px; }
+  #landingPage .portfolio-item h3 {
+    background-color: white !important; }
+  #landingPage .image {
+    height: 30px;
+    width: 30px;
+    float: left; }

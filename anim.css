@@ -1,0 +1,214 @@
+
+@-webkit-keyframes logo{
+
+	0%{	-webkit-transform: scale(1.5);}
+	50%{	-webkit-transform: rotate(20deg);}
+	100%{	-webkit-transform: rotate(-20deg);}
+}
+
+@keyframes logo{
+
+	0%{	-webkit-transform: scale(1.5);}
+	50%{	-webkit-transform: rotate(20deg);}
+	100%{	-webkit-transform: rotate(-20deg);}
+}
+
+
+/*animating the color*/
+
+@keyframes color{
+
+	0%{background-color:#F17366;}
+	50%{background-color:#007FFB;}
+	100%{background-color:#F17366;}
+	
+}
+
+@-webkit-keyframes color{
+
+	0%{background-color:#F17366;}
+	50%{background-color:#007FFB;}
+	100%{background-color:#F17366;}
+	
+}
+
+
+
+/*
+animating the arrow
+*/
+
+
+@-webkit-keyframes arrowDown{
+
+	from{ -webkit-transform: translateY(0px);
+			transform: translateY(0px)}
+	to{ -webkit-transform: translateY(10px);
+			transform: translateY(10px)}	
+
+}
+
+@keyframes arrowDown{
+
+	from{ -webkit-transform: translateY(0px);
+			transform: translateY(0px)}
+	to{ -webkit-transform: translateY(10px);
+			transform: translateY(10px)}	
+
+}
+
+/*swapping text*/
+
+@-webkit-keyframes display1{
+
+	
+	0%{ opacity:0; }
+	25%{opacity:0;}
+	50%{opacity:0;}
+	75%{opacity:0;}
+	100%{opacity:1;}
+	
+
+}
+
+@-webkit-keyframes display2{
+
+	
+	0%{ opacity:0; }
+	25%{opacity:0;}
+	50%{opacity:0;}
+	75%{opacity:0;}
+	100%{opacity:1;}
+	
+
+}
+
+@-webkit-keyframes display3{
+
+	
+	0%{ opacity:0; }
+	25%{opacity:0;}
+	50%{opacity:0;}
+	75%{opacity:0;}
+	100%{opacity:1;}
+	
+
+}
+
+@-webkit-keyframes display4{
+
+	
+	0%{ opacity:0; }
+	25%{opacity:1;}
+	50%{opacity:1;}
+	75%{opacity:0;}
+	100%{opacity:0;}
+	
+
+}
+
+/*animating the reach me button*/
+
+
+
+@-webkit-keyframes leftanim{
+
+
+	from{width:0px}
+	to{width:100%;
+	color:#000000}
+
+
+}
+
+@keyframes leftanim{
+
+
+	from{width:0px}
+	to{width:100%;
+	color:#000000}
+
+
+}
+
+
+@-webkit-keyframes html5anim{
+
+	from{width:0%}
+	to{width:80%}
+}
+
+@keyframes html5anim{
+
+	from{width:0%}
+	to{width:80%}
+}
+
+@-webkit-keyframes cssanim{
+
+	from{width:0%}
+	to{width:85%}
+}
+
+@keyframes cssanim{
+
+	from{width:0%}
+	to{width:85%}
+}
+
+@-webkit-keyframes jsanim{
+
+	from{width:0%}
+	to{width:75%}
+}
+
+@keyframes jsanim{
+
+	from{width:0%}
+	to{width:75%}
+}
+
+@-webkit-keyframes bsanim{
+
+	from{width:0%}
+	to{width:90%}
+}
+
+@keyframes bsanim{
+
+	from{width:0%}
+	to{width:90%}
+}
+
+@-webkit-keyframes jqanim{
+
+	from{width:0%}
+	to{width:79%}
+}
+
+@keyframes jqanim{
+
+	from{width:0%}
+	to{width:79%}
+}
+
+@-webkit-keyframes sassanim{
+
+	from{width:0%}
+	to{width:10%}
+}
+
+@keyframes sassanim{
+
+	from{width:0%}
+	to{width:10%}
+}
+
+@-webkit-keyframes displayOverlay{
+
+
+	from{opacity:0}
+	to{opacity:0.5}
+
+
+}
